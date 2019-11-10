@@ -28,8 +28,8 @@ public class DummyRestController {
 
     @GetMapping(value = "/test")
     public String getGreetings() {
-        logger.debug("Saluti, sono il tuo primo webservice");
-        return "Saluti, sono il tuo primo web services";
+        logger.debug("Saluti, sono il tuo primo webservice controller PortalBackend");
+        return "Saluti, sono il tuo primo web services controller PortalBackend";
     }
 
     @GetMapping(value = "/saluti/{nome}")
