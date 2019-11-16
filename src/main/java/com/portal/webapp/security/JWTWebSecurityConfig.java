@@ -63,6 +63,8 @@ public class JWTWebSecurityConfig extends WebSecurityConfigurerAdapter {
 		.and()
 		.authorizeRequests()
 				//.antMatchers("/api/utenti/**").permitAll()
+				.antMatchers("/notification/**").permitAll()
+				.antMatchers("/notifier/**").permitAll()
 				.antMatchers("/auth/**").permitAll()
 				.antMatchers("/health").permitAll()
 				.antMatchers("/actuator/**").permitAll()
