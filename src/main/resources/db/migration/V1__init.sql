@@ -1,0 +1,1 @@
+-- CREATE flyway_schema_history if needed
